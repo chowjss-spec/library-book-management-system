@@ -1,9 +1,0 @@
-com\system\management\library\BookDetailServlet.class
-com\system\management\library\LogoutServlet.class
-com\system\management\library\models\Book.class
-com\system\management\library\ReservationServlet.class
-com\system\management\library\models\Reservation.class
-com\system\management\library\models\User.class
-com\system\management\library\models\PhysicalBook.class
-com\system\management\library\AddUserServlet.class
-com\system\management\library\HomeServlet.class

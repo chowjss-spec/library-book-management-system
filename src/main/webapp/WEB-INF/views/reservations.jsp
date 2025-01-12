@@ -53,6 +53,6 @@
 	}
 	%>
 	<button type="button"
-		onclick="window.location.href='/TestProject/LogoutServlet'">Logout</button>
+		onclick="window.location.href='/LibraryBookManagementSystem/LogoutServlet'">Logout</button>
 </body>
 </html>

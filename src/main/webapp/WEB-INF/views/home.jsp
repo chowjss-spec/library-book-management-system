@@ -36,7 +36,7 @@
 			%>
 			<tr>
 				<td><button type="button"
-						onclick="window.open('/TestProject/Home/BookDetailServlet/?id=<%=book.getId()%>', '_blank')">See
+						onclick="window.open('/LibraryBookManagementSystem/Home/BookDetailServlet/?id=<%=book.getId()%>', '_blank')">See
 						more</button></td>
 				<td><%=book.getISBN()%></td>
 				<td><%=book.getTitle()%></td>
@@ -58,6 +58,6 @@
 	}
 	%>
 	<button type="button"
-		onclick="window.location.href='/TestProject/LogoutServlet'">Logout</button>
+		onclick="window.location.href='/LibraryBookManagementSystem/LogoutServlet'">Logout</button>
 </body>
 </html>
