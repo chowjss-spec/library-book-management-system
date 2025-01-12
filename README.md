@@ -1,11 +1,14 @@
-# library-book-management-system
-- Install project dependencies.
-- Setup db.
-- Install docker and mysqlsh.
-- Pull mysql image. 
-docker pull mysql:8
-docker run --name mysql-container -e MYSQL_ROOT_PASSWORD=my-secret-pw -p 3306:3306 -d mysql:8
-docker exec -it mysql-container mysql -u root -p
+## Library-book-management-system
 
+# Setup guide
+- Run 'mvn clean' and 'mvn install' to compile the source code.
+- Install docker.
+- Run 'docker-compose up --build' to set up app and db containers.
+- Run the following commands to downland and copy the sql driver jar to the tomcat server.
 
-- Drag and drop images (requires your Dropbox account be linked)
+```sh
+curl -O https://repo1.maven.org/maven2/com/mysql/mysql-connector-j/8.0.31/mysql-connector-j-8.0.31.jar
+docker cp mysql-connector-j-8.0.31.jar java-app-container:/usr/local/tomcat/lib/
+```
+
+- Go to http://localhost:8080/LibraryBookManagementSystem/Home to access login page.
