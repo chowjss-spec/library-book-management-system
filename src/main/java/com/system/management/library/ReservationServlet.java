@@ -146,7 +146,7 @@ public class ReservationServlet extends HttpServlet {
 				e.printStackTrace();
 			}
 		}
-		response.sendRedirect("/TestProject/Home/BookDetailServlet/?id=" + request.getParameter("bookDetailId"));
+		response.sendRedirect("/LibraryBookManagementSystem/Home/BookDetailServlet/?id=" + request.getParameter("bookDetailId"));
 	}
 
 }

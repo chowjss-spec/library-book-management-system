@@ -38,7 +38,7 @@
 					<% boolean isPublic = request.isUserInRole("public");
 					   int physicalBookId = book.getId();
 					if (book.getStatus().equals("Available") && isPublic) {%>
-					<form action="/TestProject/ReservationServlet" method="POST">
+					<form action="/LibraryBookManagementSystem/ReservationServlet" method="POST">
 					<input type="hidden" id="bookDetailId" name="bookDetailId" value="<%=request.getAttribute("bookDetailId")%>">
 					<input type="hidden" id="physicalBookId" name="physicalBookId" value="<%=physicalBookId%>">
 					<button type="submit">Reserve</button> 

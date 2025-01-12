@@ -14,5 +14,5 @@ if (request.isUserInRole("admin") || request.isUserInRole("staff")) {
 <%
 }
 %>
-<button type="button" onclick="window.location.href='/TestProject/ReservationServlet'">Manage Reservations</button>
-<button type="button" onclick="window.location.href='/TestProject/Home'">Home</button>
+<button type="button" onclick="window.location.href='/LibraryBookManagementSystem/ReservationServlet'">Manage Reservations</button>
+<button type="button" onclick="window.location.href='/LibraryBookManagementSystem/Home'">Home</button>
