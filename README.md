@@ -1,8 +1,8 @@
-## Library-book-management-system
+# Library Book Management System
 
-# Setup guide
+Setup Guide
 - Run 'mvn clean' and 'mvn install' to compile the source code.
-- Install docker.
+- Install Docker for Desktop.
 - Run 'docker-compose up --build' to set up app and db containers.
 - Run the following commands to downland and copy the sql driver jar to the tomcat server.
 
