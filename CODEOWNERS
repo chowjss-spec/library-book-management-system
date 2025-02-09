@@ -1,0 +1,4 @@
+# CODEOWNERS file
+
+# Global owners for all files in the repository
+*       @chowjss-spec @chowjss-arch
