@@ -33,7 +33,7 @@ public class E2ETest {
 	      options.addArguments("--no-sandbox");
 	      options.addArguments("--disable-dev-shm-usage");
 		  this.driver = new ChromeDriver(options);
-		  driver.get("http://localhost:8080/LibraryBookManagementSystem/Home");
+		  driver.get("http://host.docker.internal:9000/LibraryBookManagementSystem/Home");
 	  }
 
 	  @AfterSuite
