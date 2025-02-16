@@ -18,7 +18,7 @@ services:
     build: .
     container_name: java-app-container
     ports:
-      - "8080:8080"
+      - "9000:8080"
     depends_on:
       - mysql
     environment:
