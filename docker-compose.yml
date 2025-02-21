@@ -1,8 +1,8 @@
-version: "3.8"
 
+version: '3.8'
 services:
   mysql:
-    image: mysql:8.0
+    image: mysql:8.4
     container_name: mysql-container
     environment:
       MYSQL_ROOT_PASSWORD: my-secret-pwd
@@ -22,9 +22,9 @@ services:
     depends_on:
       - mysql
     environment:
-      SPRING_DATASOURCE_URL: jdbc:mysql://mysql:3306/LibraryBookManagementSystem
-      SPRING_DATASOURCE_USERNAME: root
-      SPRING_DATASOURCE_PASSWORD: my-secret-pwd
+      DATASOURCE_URL: jdbc:mysql://mysql:3306/LibraryBookManagementSystem
+      DATASOURCE_USERNAME: root
+      DATASOURCE_PASSWORD: my-secret-pwd
     networks:
       - app-network
 volumes:
