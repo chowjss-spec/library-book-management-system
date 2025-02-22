@@ -4,7 +4,7 @@ BUCKET_NAME="raw-data-test-1234"
 APP_NAME="library-book-management-system-v2"
 ENV_NAME="Library-book-management-system-2-env"
 VERSION_LABEL="v$(date +%Y%m%d%H%M%S)"
-JAR_PATH="./target/LibraryBookManagementSystem-0.0.1-SNAPSHOT.war"
+JAR_PATH="../target/LibraryBookManagementSystem-0.0.1-SNAPSHOT.war"
 
 # Upload JAR to S3
 aws s3 cp $JAR_PATH s3://$BUCKET_NAME/ROOT.jar
