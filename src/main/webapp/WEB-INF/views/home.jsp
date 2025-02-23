@@ -11,7 +11,7 @@
 <title>Library Book Management System Home Page</title>
 </head>
 <body>
-	<h1>Library Book Management System Home Page</h1>
+	<h1>Library Book Management System Home Page - Test</h1>
 	<%@ include file="header.jsp"%>
 	<h2>List of Books</h2>
 	<%
