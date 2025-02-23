@@ -7,7 +7,7 @@
 <title>Library Book Management System</title>
 </head>
 <body>
-	<h1>Library Book Management System - Login</h1>
+	<h1>Library Book Management System - Login Page</h1>
 	<form method="POST" action="j_security_check">
         <label for="username">Email:</label>
         <input type="text" id="username" name="j_username" required>
