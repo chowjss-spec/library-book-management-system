@@ -10,15 +10,6 @@ pipeline {
     }
 
     stages {
-        stage('Preparation') {  // for display purposes
-            steps {
-                script {
-                    sh 'rm -rf library-book-management-system'
-                    sh 'git clone https://github.com/chowjss-spec/library-book-management-system.git'
-                }
-            }
-        }
-
         stage('Setup') {
             steps {
                 script {
